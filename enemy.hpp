@@ -1,6 +1,7 @@
 #ifndef ENEMY_HH
 #define ENEMY_HH
 #include <iostream>
+#include <vector>
 
 class Enemy {
 public:

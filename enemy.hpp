@@ -9,6 +9,7 @@ public:
     const std::string& getName() const;
 	const std::string& getType() const;
 	int getHP() const;
+    int getMP() const;
 private:
     std::string const name_;
     std::string const type_;

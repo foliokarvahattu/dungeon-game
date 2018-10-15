@@ -6,10 +6,13 @@
 
 template <typename T> class Tile {
 public:
-    Tile();
+    Tile(T tileContent) : tileContent_(tileContent) {}
     ~Tile();
+    T returnTileType() const;
     bool isPlayerHere() const;
     bool isLootHere() const;
     bool isEnemyHere() const;
+private:
+    T tileContent_;
 };
 #endif

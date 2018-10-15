@@ -1,13 +1,15 @@
 #ifndef TILE_HH
 #define TILE_HH
 #include <iostream>
+#include "enemy.hpp"
+#include "Loot.hpp"
 
-class Tile {
+template <typename T> class Tile {
 public:
     Tile();
     ~Tile();
-    bool isPlayerHere();
-    bool isLootHere();
-    bool isEnemyHere();
+    bool isPlayerHere() const;
+    bool isLootHere() const;
+    bool isEnemyHere() const;
 };
 #endif

@@ -5,10 +5,10 @@ Tile::~Tile() {
     std::cout << "tile removed" << std::endl;
 }
 
-T Tile::returnTileType() {
+typename T Tile::returnTileType() {
     
 }
 
-bool Tile::isEnemyHere() {
+bool Tile<T>::isEnemyHere() {
     if ()
 }
